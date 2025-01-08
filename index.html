@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Coda' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Szókitaláló</title>
+</head>
+<body>
+    <div class="kartya">
+        <h1>Találd ki a szót!</h1>
+        <p>
+              <b>Segítség: </b>  <span class="spoiler">Egy programozási nyelv</span>
+        </p>
+        <p id="Word"></p>
+        <p>Tippelj egy betűt:
+
+            <input type="text" maxlength="1" id="betu">
+        </p>
+        <button onclick="guessLetter()">Tipp</button>
+        <button onclick="resetGame()">Új szó</button>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
