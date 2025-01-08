@@ -41,7 +41,7 @@ function guessLetter() {
 
     
     if (guessedlist.includes(letter)) {
-        alert("Ezt a betűt már kitaláltad.");
+        alert("Erre a betűre már tippeltél.");
         return;
     }
 
